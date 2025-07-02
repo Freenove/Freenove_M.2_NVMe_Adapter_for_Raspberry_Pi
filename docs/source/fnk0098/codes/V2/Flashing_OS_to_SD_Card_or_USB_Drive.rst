@@ -2,17 +2,13 @@
 1. Flashing OS to SD Card or USB Drive
 ##############################################################################
 
-.. raw:: html
-
-   <iframe style="display: block; margin: 0 auto;" height="421.875" width="750" src="https://www.youtube.com/embed/D8xOiRY3h0c" frameborder="0" allowfullscreen></iframe>
-
-Based on the analysis above, our first step should be to install the Raspberry Pi operating system onto an SD card or USB drive, with a capacity of at least 16GB. If you are already able to boot the Raspberry Pi using an SD card or USB drive, you can :ref:`skip this section and move on to the next chapter <fnk0098/codes/v1/flashing_os_to_nvme_ssd:2. flashing os to nvme ssd>`.
+Based on the analysis above, our first step should be to install the Raspberry Pi operating system onto an SD card or USB drive, with a capacity of at least 16GB. If you are already able to boot the Raspberry Pi using an SD card or USB drive, you can skip this section and move on to the next chapter.
 
 Component List 
-***************************
+****************************
 
 Required Components(self-prepared)
-==========================================
+=======================================
 
 .. table::
    :align: center

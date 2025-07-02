@@ -34,3 +34,4 @@ This product provides the following online documents.
    :caption: FNK0098
 
    fnk0098/codes/V1.rst
+   fnk0098/codes/V2.rst

@@ -11,7 +11,7 @@ The default boot order of Raspberry Pi is SD card -> SSD -> USB, Therefore, when
 
 If you want the Raspberry Pi to boot from the SSD first, please continue with the following steps to modify the boot order. The boot order is saved in the Pi’s EEPROM, so it does not matter whether you modify the boot order on SD card system or SSD system.
 
-If you do not want to change the boot order, please skip 4. Speed Test & PCIe Gen3.0 
+:ref:`If you do not want to change the boot order, please skip this chapter <fnk0098/codes/v2/speed_test_&_pcie_gen3.0_:4. speed test & pcie gen3.0>`.
 
 3.1 Configuring the Boot Order
 *******************************************

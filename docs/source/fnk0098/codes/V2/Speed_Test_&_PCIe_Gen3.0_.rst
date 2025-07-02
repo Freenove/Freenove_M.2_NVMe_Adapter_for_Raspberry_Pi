@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/PCI_Express#Comparison_table
 https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#pcie-gen-3-0
 
 4.1 Disk Speed Test
-**********************************
+*********************************
 
 This is an additional chapter for those who wish to test the read and write speeds of their SSD.
 
@@ -117,3 +117,4 @@ Delete the line added with the previous step to disable PCIe Gen3.0.
 Delete the line :guilabel:`dtparam=pciex1_gen=3` in the boot/firmware/config.txt file.
 
 After the line is removed, it will change to PCIe Gen2.0.
+
