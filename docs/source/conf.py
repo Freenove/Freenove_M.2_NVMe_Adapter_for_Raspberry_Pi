@@ -15,7 +15,7 @@ sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 # os.system("rm -r freenove_Kit")
 # os.system("git clone --depth 1 这里放对应的Github地址 freenove_Kit")
 
-project = "fnk0098-docs" #这里要写名称，网页标签会显示的！！！！！！！！！！！！！
+project = "fnk0098-docs" 
 # <!!!BEGIN!!!>
 copyright = '2016-2025, Freenove'
 author = 'Freenove'
