@@ -23,9 +23,13 @@ Required Components
 |                                                            |                                                            |
 | |Chapter02_42|                                             | |Chapter02_43|                                             |
 +---------------------------------------+--------------------+--------------------+---------------------------------------+
-| M2.5x3 Screws x5                      | M2.5*8+3 single-pass brass standoffs x8 | Cable                                 |
+| M2.5x3 Screws x10                     | M2.5*8+3 brass standoffs x8             | Cable                                 |
 |                                       |                                         |                                       |
 | |Chapter02_44|                        | |Chapter02_45|                          | |Chapter02_46|                        |
++---------------------------------------+-----------------------------------------+---------------------------------------+
+| M2x3 Screws x1                        | M2*3+2 brass standoffs x1               | M2.5*8+3 brass standoffs x5           |
+|                                       |                                         |                                       |
+| |Chapter02_59|                        | |Chapter02_60|                          | |Chapter02_61|                        |
 +---------------------------------------+-----------------------------------------+---------------------------------------+
 
 .. |Chapter02_00| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_00.png
@@ -37,39 +41,46 @@ Required Components
 .. |Chapter02_44| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_44.png
 .. |Chapter02_45| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_45.png
 .. |Chapter02_46| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_46.png
+.. |Chapter02_59| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_59.png
+.. |Chapter02_60| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_60.png
+.. |Chapter02_61| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_61.png
 
 The Freenove M.2 NVMe Adapter for Raspberry Pi can be assembled either :ref`above <v2Assembling>` or **below** the Raspberry Pi 5. You can install it in the way you prefer.
 
 Assembling above the Raspberry Pi 5
 =========================================
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 1. Connect the cable to Raspberry Pi 5.                                                                                     |
-|                                                                                                                             |
-| |Chapter02_47|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 2. :red:`Combine two M2.5x8+3 single-pass brass standoffs into a stacked pair`,prepare four such assemblies,                |
-|                                                                                                                             |
-| and install them onto each mounting holes **on the rear side** of the expansion board.                                      |
-|                                                                                                                             |
-| |Chapter02_48|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 3. Connect the other end of the cable to adapter board.                                                                     |
-|                                                                                                                             |
-| |Chapter02_49|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 4. Install the adapter board on top of the Raspberry Pi 5, and secure it from below the Raspberry Pi 5 using M2.5x3 screws. |
-|                                                                                                                             |
-| |Chapter02_50|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 5. Insert the SSD to the adapter board. **Please tilt it to insert.**                                                       |
-|                                                                                                                             |
-| |Chapter02_51|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
-| 6. Fix the SSD with a M2.5 screw.                                                                                           |
-|                                                                                                                             |
-| |Chapter02_52|                                                                                                              |
-+-----------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1. Connect the cable to Raspberry Pi 5.                                                                                                                                       |
+|                                                                                                                                                                               |
+| |Chapter02_47|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2. Stack one M2.5x8+3 Single-Pass Brass Standoff and one M2.5x8 Brass Standoff together, as shown in the illustration below.                                                  |
+|                                                                                                                                                                               |
+| Prepare four sets and install them into the mounting holes on the Raspberry Pi 5. Secure them from the underside using M2.5x3 Screws.                                         |
+|                                                                                                                                                                               |
+| |Chapter02_48|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3. Connect the other end of the cable to adapter board.                                                                                                                       |
+|                                                                                                                                                                               |
+| |Chapter02_49|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4. Install the adapter board on top of the Raspberry Pi 5, and secure it from using M2.5x3 screws.                                                                            |
+|                                                                                                                                                                               |
+| |Chapter02_50|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5. Install the M2x3+2 Brass Standoff into the appropriate mounting hole according to your SSD's dimensions. (:red:`Remove the yellow protective sticker before installation.`)|
+|                                                                                                                                                                               |
+| |Chapter02_51|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6. Insert the SSD to the adapter board. Please tilt it to insert.                                                                                                             |
+|                                                                                                                                                                               |
+| |Chapter02_52|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7. Fix the SSD with a M2.5 screw.                                                                                                                                             |
+|                                                                                                                                                                               |
+| |Chapter02_62|                                                                                                                                                                |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. |Chapter02_47| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_47.png
 .. |Chapter02_48| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_48.png
@@ -77,35 +88,40 @@ Assembling above the Raspberry Pi 5
 .. |Chapter02_50| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_50.png
 .. |Chapter02_51| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_51.png
 .. |Chapter02_52| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_52.png
-
+.. |Chapter02_62| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_62.png
+  
 Assembling below the Raspberry Pi 5
 ==========================================
 
-+------------------------------------------------------------------------------------------------------------------------+
-| 1.  Connect the cable to Raspberry Pi 5.                                                                               |
-|                                                                                                                        |
-| |Chapter02_53|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
-| 2. Insert the SSD to the adapter board. Please tilt it to insert.                                                      |
-|                                                                                                                        |
-| |Chapter02_54|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
-| 3. Fix the SSD with a M2.5 screw.                                                                                      |
-|                                                                                                                        |
-| |Chapter02_55|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
-| 4. Install one M2.5*8+3 single-pass brass standoffs onto each mounting holes on the front side of the adapter board.   |
-|                                                                                                                        |
-| |Chapter02_56|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
-| 5. Assemble the adapter board below the Raspberry Pi 5, and secure it with M2.5x3 screws.                              |
-|                                                                                                                        |
-| |Chapter02_57|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
-| 6. Connect the other end of the cable to the adapter board.                                                            |
-|                                                                                                                        |
-| |Chapter02_58|                                                                                                         |
-+------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.  Connect the cable to Raspberry Pi 5.                                                                                                                                                                                  |
+|                                                                                                                                                                                                                           |
+| |Chapter02_53|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2. Install the M2x3+2 Brass Standoff into the appropriate mounting hole according to your SSD's dimensions. ( :red:`Remove the yellow protective sticker before installation.` )                                          |
+|                                                                                                                                                                                                                           |
+| |Chapter02_54|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3. Insert the SSD to the adapter board. **Please tilt it to insert.**                                                                                                                                                     |
+|                                                                                                                                                                                                                           |
+| |Chapter02_55|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4. Fix the SSD with a M2.5 screw.                                                                                                                                                                                         |
+|                                                                                                                                                                                                                           |
+| |Chapter02_56|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5. Install the M2.5x8+3 Single-Pass Brass Standoffs and M2.5x8 Brass Standoffs into the mounting holes on the NVMe Adapter, one from each side of the board, as shown in the illustration below.                          |
+|                                                                                                                                                                                                                           |
+| |Chapter02_57|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6. Assemble the adapter board below the Raspberry Pi 5, and secure it with M2.5x3 screws.                                                                                                                                 |
+|                                                                                                                                                                                                                           |
+| |Chapter02_58|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7. Connect the other end of the cable to the adapter board.                                                                                                                                                               |
+|                                                                                                                                                                                                                           |
+| |Chapter02_63|                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. |Chapter02_53| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_53.png
 .. |Chapter02_54| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_54.png
@@ -113,6 +129,7 @@ Assembling below the Raspberry Pi 5
 .. |Chapter02_56| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_56.png
 .. |Chapter02_57| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_57.png
 .. |Chapter02_58| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_58.png
+.. |Chapter02_63| image:: ../_static/imgs/Flashing_OS_to_NVME_SSD/Chapter02_63.png
 
 2.2 Flashing the RPi OS to NVME SSD
 ********************************************

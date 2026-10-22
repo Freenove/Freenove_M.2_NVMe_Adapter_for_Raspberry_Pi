@@ -8,7 +8,7 @@ Please refer to the tutorial corresponding to the version of our board you recei
 
 If you receive the board as shown in Figure 1, please follow the “Tutorial_V1.0.pdf”(this tutorial) to proceed.
 
-.. image:: ../_static/imgs/Welcome/Welcome02.png
+.. image:: ../_static/imgs/Welcome/Welcome03.png
     :align: center
 
 If it is the one like Figure 2, please follow the “Tutorial_V2.0.pdf” under the same folder to operate.
